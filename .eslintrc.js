@@ -30,31 +30,6 @@ module.exports = {
     },
   },
   rules: {
-    "@typescript-eslint/lines-between-class-members": [
-      "error",
-      {
-        enforce: [
-          {
-            blankLine: "always",
-            prev: "*",
-            next: "method",
-          },
-          {
-            blankLine: "always",
-            prev: "method",
-            next: "*",
-          },
-          {
-            blankLine: "always",
-            prev: "field",
-            next: "field",
-          },
-        ],
-      },
-      {
-        exceptAfterSingleLine: true,
-      },
-    ],
     "no-underscore-dangle": "off",
     "react/react-in-jsx-scope": "off",
     "react/jsx-filename-extension": [
