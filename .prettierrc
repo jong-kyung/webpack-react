@@ -1,0 +1,9 @@
+{
+    "printWidth": 120,
+    "semi": true,
+    "trailingComma": "none",
+    "arrowParens": "avoid",
+    "useTabs": true,
+    "htmlWhitespaceSensitivity": "css",
+    "jsxSingleQuote": true
+}
