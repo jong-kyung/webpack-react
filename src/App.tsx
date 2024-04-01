@@ -1,4 +1,6 @@
+import logo from '@/assets/images/logo.png';
+
 const App = () => {
-	return <div className='bg-red-50'>Hello World</div>;
+  return <img src={logo}></img>;
 };
 export default App;
